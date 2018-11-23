@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockervstest:
+    image: ${DOCKER_REGISTRY}dockervstest
+    build:
+      context: .\DockerVSTest
+      dockerfile: Dockerfile
