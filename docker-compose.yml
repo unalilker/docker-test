@@ -6,3 +6,5 @@ services:
     build:
       context: .\DockerVSTest
       dockerfile: Dockerfile
+      proxy:
+        remoteurl: http://10.230.12.111:5000
